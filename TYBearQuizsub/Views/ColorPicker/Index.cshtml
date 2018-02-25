@@ -1,0 +1,23 @@
+﻿@model TYBearQuiz.Database_files.Beanie
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+        <form action="/ColorPicker/Picker" method="post">
+            Picture of Animal:
+            <img src="@Url.Content(@Model.Image)" />
+            </br>
+            </br>
+            What is the Color?
+            @Html.TextBox("AnswerColor")
+            <input type="submit" value="Submit" />
+        </form>
+</body>
+</html>
+

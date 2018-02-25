@@ -1,0 +1,13 @@
+﻿@model TYBearQuiz.Database_files.Beanie
+@{
+    Layout = null;
+}
+
+<h2>Welcome to @ViewData["project title"]!</h2>
+
+<p>
+    Ever wanted to know what type of Beanie Bear or Beanie Baby fits you best? Take this quiz and you'll find out!
+</p>
+<form action="/Home/Quiz" method="get">
+<input id="StartQuiz" type="submit" value="Take the Quiz" />
+</form>
