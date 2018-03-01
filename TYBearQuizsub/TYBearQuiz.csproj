@@ -90,6 +90,11 @@
     <Folder Include="Scripts\" />
     <Folder Include="Views\QuizAnswers\" />
     <Folder Include="Database_files\" />
+    <Folder Include="Content\app\" />
+    <Folder Include="Content\app\home-page\" />
+    <Folder Include="Content\app\color-picker\" />
+    <Folder Include="Content\app\webform-quiz\" />
+    <Folder Include="Content\app\src\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -119,6 +124,15 @@
     <Content Include="Views\Home\ColorPicker.cshtml" />
     <Content Include="Views\ColorPicker\Index.cshtml" />
     <Content Include="Views\Home\WebformQuestions.cshtml" />
+    <Content Include="Content\Style.css" />
+    <Content Include="Content\Bootstrap.css" />
+    <Content Include="Content\app\home-page\home-page.component.css" />
+    <Content Include="Content\app\home-page\home-page.component.html" />
+    <Content Include="Content\app\color-picker\color-picker.component.css" />
+    <Content Include="Content\app\color-picker\color-picker.component.html" />
+    <Content Include="Content\app\webform-quiz\webform-quiz.component.css" />
+    <Content Include="Content\app\app-component.css" />
+    <Content Include="Content\app\app-component.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="docs\MySqlTransaction.xml" />
@@ -132,6 +146,15 @@
     <None Include="docs\MySqlConnection.xml" />
     <None Include="docs\MySqlCommandBuilder.xml" />
     <None Include="docs\MySqlCommand.xml" />
+    <None Include="Content\app\home-page\home-page.component.ts" />
+    <None Include="Content\app\color-picker\color-picker.component.ts" />
+    <None Include="Content\app\webform-quiz\webform-quiz.component.ts" />
+    <None Include="Content\app\app-module.ts" />
+    <None Include="Content\app\app-component.ts" />
+    <None Include="Content\app\home.ts" />
+    <None Include="Content\app\webform-quiz\webform-quiz..componenthtml" />
+    <None Include="Content\app\home-page\home-page.component.spec.ts" />
+    <None Include="Content\app\src\router-link.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
